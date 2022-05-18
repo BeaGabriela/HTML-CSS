@@ -131,14 +131,16 @@
                 </button>
                 <div id="animais" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button  type="button" data-bs-target="#animais" data-bs-slide-to="0"></button>
-                        <button  type="button" data-bs-target="#animais" data-bs-slide-to="1" aria-current="true" class="active"></button>
-                        <button  type="button" data-bs-target="#animais" data-bs-slide-to="2"></button>
-                        <button  type="button" data-bs-target="#animais" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#animais" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#animais" data-bs-slide-to="1" aria-current="true"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#animais" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#animais" data-bs-slide-to="3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item">
-                            <img class="d-block w-50" src="https://i.pinimg.com/736x/06/01/f6/0601f69cad95de61797297bec7c03546--hilarious-animals-adorable-animals.jpg" />
+                            <img class="d-block w-50"
+                                src="https://i.pinimg.com/736x/06/01/f6/0601f69cad95de61797297bec7c03546--hilarious-animals-adorable-animals.jpg" />
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100"
@@ -154,26 +156,65 @@
                         </div>
                     </div>
                     <button type="button" class="carousel-control-prev" data-bs-target="#animais" data-bs-slide="prev">
-                        <span class= "carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Voltar</span>
                     </button>
                     <button type="button" class="carousel-control-next" data-bs-target="#animais" data-bs-slide="next">
-                        <span class= "carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Voltar</span>
                     </button>
-
-
+                </div>
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/c7/eb/52/c7eb52d9f4d13851d7348f0b036af965.jpg" alt=""
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Carroça Executiva</h5>
+                        <p class="card-text">Único dono, banco de couro, ar condicionado, suspensão hidráulica, cavalo
+                            de brinde e rodas crômaticas.</p>
+                        <a href="" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-            </div>
-
+                <button type="button" class="btn btn-primary m-4" data-bs-toggle="modal" data-bs-target="#mteste">Mostrar Modal</button>
+                <div class="modal fade" id="mteste" tabindex="-1" aria-labelledby="mteste">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="mteste">Exemplo de modal</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> </button>
+                            </div>
+                                <div class="modal-body">
+                                    <p>Texto modelo modal</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" id="testebtn">Close</button>
+                    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                        <div id="teste" class="toast" aria-live="assertive" >
+                            <div class="toast-header">
+                                <strong class="me-auto">Notificações</strong>
+                                <small>11 min ago</small>
+                                <button type="button"class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                            </div>
+                            <div class="toast-body">
+                                Hey, coisa. Você tem novas notificações!
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <div class=" col-12  col-md-2 bg-danger">
                 Coluna 3
             </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-                crossorigin="anonymous"></script>
         </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
