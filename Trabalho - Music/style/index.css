@@ -16,6 +16,25 @@ body{
     margin-top: 13vh;
     position: absolute;
 }
+.nome{
+    display:flex;
+    justify-content:center;
+    color: white;
+}
+.pon{
+    list-style: none;
+}
+.n{
+    display: flex;
+    justify-content:center;
+    color: white;
+}
+
+.foter a{
+    position: absolute;
+    color: white;
+    margin: 12px;
+}
 #img{
     margin-top: 8vh;
     margin-left: 13vw;
@@ -31,7 +50,14 @@ body{
     display: flex;
     padding-left: 8vw;
 }
-
+.icones{
+    display: flex;
+    justify-content:right;
+    margin: -55px;
+}
+.i{
+    margin: 0 10px;
+}
 .navbar{
     width: 100%;
 }
