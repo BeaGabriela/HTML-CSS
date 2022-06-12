@@ -5,25 +5,27 @@
 
 }
 body{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color:bLACK;
 }  
 .foter{
     background-color: rgba(33, 33, 33);
-    width: 100vw;
-    height:7vh;
-    margin-top: 4.8vh;
+    width: 100%;
+    height:9vh;
+    margin-top: 5vh;
     position: absolute;
 }
-.nome{
+.banda{
     display:flex;
     justify-content:center;
     color: white;
+    font-size: 15px;
+    margin: 30px 0px 0px -90px;
+   justify-content: space-around;
+   text-decoration: none;
 }
-.pon{
-    list-style: none;
-}
+
 .n{
     display: flex;
     justify-content:center;
@@ -37,23 +39,39 @@ body{
 }
 #img{
     margin-top: 8vh;
-    margin-left: 13vw;
+    margin-left: 5vw;
 }
 .co{
-   margin-left:8vw;
+   margin-left:6vw;
    text-decoration: none;
-   color:rgb(255, 255, 255);
+   color:rgb(187, 185, 185);
 
 }
+.col{
+    margin-left: 4vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ 
+ }
+ .barrinha2{
+    width: 12%;
+    height: 0.1vw;
+    margin: -62vh 30px 40px 900px;
+    background-color: white;
+ }
 .col-3{
-    margin-top:10vh;
+    margin-top:-70vh;
     display: flex;
-    padding-left: 8vw;
+    padding-left: 63vw;
+    margin-bottom: 4px;
 }
 .icones{
     display: flex;
     justify-content: right;
-    margin: -36px 8px;
+    margin: -45px 8px;
+}
+.m{
+    margin: 10vh 60px 0px -377px;
 }
 .i{
     margin: 0 10px;
@@ -84,7 +102,7 @@ body{
 
 
 .r{
-    margin: -36px 0 0 38vw;
+    margin: -36px 0 0 35vw;
         align-items: center;
      
 
@@ -100,19 +118,22 @@ body{
     }
 
     .qua{
-        background-color:rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
-        width: 20%;
-        padding:8px 5px 5px 15px;
-        border-radius: 2px;
-        margin-left:198%;
-        margin-top: -7%;
-        font-size:12px;
+        width: 13%;
+        padding: 9px 1px 2px 13px;
+        border-radius: 4px;
+        margin-left: 55vw;
+        margin-top: -4.2%;
+        font-size: 12px;
         font-weight: bold;
     }
     .lado{
-        margin: -4px -505px 8px 520px;
+        margin:2px 0px 2px 9px;
     }
+     .lado1{
+        margin: -26px 0px 3px 660px;
+    } 
 
     .x{
         position: absolute;
@@ -139,6 +160,14 @@ body{
     align-items: center;
     margin: 10px;;
    }
+   .tempo{
+      position: absolute;
+      padding: 10px 200px;
+   }
+   .reflection{
+    margin: 10px;
+    list-style: none;
+   }
    .joia{
-       
+    margin: -18px 10px 0px 20px;
    }
