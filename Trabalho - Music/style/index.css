@@ -97,6 +97,7 @@ body{
 }
 .cima:hover{
     color:white;
+    cursor:pointer;
 }
 
 
@@ -118,7 +119,7 @@ body{
     }
 
     .qua{
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.89);
         color: rgb(0, 0, 0);
         width: 13%;
         padding: 9px 1px 2px 13px;
@@ -128,8 +129,17 @@ body{
         font-size: 12px;
         font-weight: bold;
     }
+    .qua:hover{
+        background-color: white;
+        cursor:pointer;
+
+    }
     .lado{
         margin:2px 0px 2px 9px;
+    }
+
+    .lado:hover{
+        cursor:pointer;
     }
      .lado1{
         margin: -26px 0px 3px 660px;
@@ -170,4 +180,8 @@ body{
    }
    .joia{
     margin: -18px 10px 0px 20px;
+   }
+   .col-3:hover{
+    cursor: pointer;
+    color: white;
    }
