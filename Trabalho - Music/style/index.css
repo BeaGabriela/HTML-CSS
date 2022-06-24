@@ -13,7 +13,7 @@ body{
     background-color: rgba(33, 33, 33);
     width: 100%;
     height:9vh;
-    margin-top: 5vh;
+    margin-top: 1vh;
     position: absolute;
 }
 .banda{
@@ -25,7 +25,13 @@ body{
    justify-content: space-around;
    text-decoration: none;
 }
+.banda liv{
+   margin: 0px 0px 5px 12px;
+}
 
+.linha{
+    border: 1px solid  rgba(255, 255, 255, 0.404);
+}
 .n{
     display: flex;
     justify-content:center;
@@ -56,13 +62,13 @@ body{
  .barrinha2{
     width: 12%;
     height: 0.1vw;
-    margin: -62vh 30px 40px 900px;
+    margin: -63vh 30px 40px 828px;
     background-color: white;
  }
 .col-3{
     margin-top:-70vh;
     display: flex;
-    padding-left: 63vw;
+    padding-left: 59vw;
     margin-bottom: 4px;
 }
 .icones{
